@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_user_icon"
+            android:title="Partner wuth us">
+        </item>
+        <item android:id="@+id/nav_mypasses"
+            android:icon="@drawable/ic_userpic_icon"
+            android:title="Terms and Conditions">
+        </item>
+        <item android:id="@+id/nav_myaccessid"
+            android:icon="@drawable/ic_userpic_icon"
+            android:title="Privacy Ploicy">
+        </item>
+        <item android:id="@+id/nav_usercheckin"
+            android:icon="@drawable/ic_camera_icon"
+            android:title="How it Works">
+        </item>
+    </group>
+</menu>

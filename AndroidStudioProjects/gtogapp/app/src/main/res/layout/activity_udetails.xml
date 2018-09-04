@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    tools:context="com.gotogyms.gtogapp.UdetailsActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/new_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:drawableLeft="@drawable/ic_user_icon"
+        android:drawablePadding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapCharacters|textPersonName"
+        android:maxLines="1" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/new_user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_icon"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignStart="@+id/email_sign_in_button"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:singleLine="true" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_city_icon"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignStart="@+id/new_user_email"
+        android:layout_below="@+id/textInputLayout"
+        android:text="HYDERABAD" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.3"
+            android:text="Male"
+            android:id="@+id/male_gender"
+            android:background="#ECE8E8"
+            app:layout_constraintTop_toBottomOf="@+id/new_user_button" />
+
+        <Button
+            android:id="@+id/female_gender"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.3"
+            android:background="#ECE8E8"
+            android:layout_toRightOf="@id/user_login_button"
+            android:text="Female" />
+
+        <Button
+            android:id="@+id/unspecified_gender"
+            android:layout_width="0dp"
+            android:background="#ECE8E8"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="0.4"
+            android:layout_toRightOf="@id/user_login_button"
+            android:text="Unspecified" />
+
+    </LinearLayout>
+
+    <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:id="@+id/get_stated"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GET STARTED"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>

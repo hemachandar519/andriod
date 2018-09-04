@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939502931849",
+    "firebase_url": "https://gtogapp.firebaseio.com",
+    "project_id": "gtogapp",
+    "storage_bucket": "gtogapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939502931849:android:82e675816877f7b0",
+        "android_client_info": {
+          "package_name": "com.gotogyms.gtogapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939502931849-8o6dnh7p40i5u4i9u2ghi1srovs773rb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gotogyms.gtogapp",
+            "certificate_hash": "b478adb8e785a97dce10b7979c5f2a1e856eea4d"
+          }
+        },
+        {
+          "client_id": "939502931849-a2gshc0v9evf8b34n4cdghnbu9mobppc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADlKC_oJJMimay_weWe6PzQ7fkThHAmQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939502931849-a2gshc0v9evf8b34n4cdghnbu9mobppc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

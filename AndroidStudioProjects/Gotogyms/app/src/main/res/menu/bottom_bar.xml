@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_nav_apphome"
+        android:icon="@drawable/ic_home_launch"
+        android:title="Home">
+    </item>
+    <item android:id="@+id/bottom_nav_appsearch"
+        android:icon="@mipmap/ic_app_search_gyms"
+        android:title="Find Gyms">
+    </item>
+    <item android:id="@+id/bottom_nav_usercheckin"
+        android:icon="@drawable/ic_center_focus_weak_black_24dp"
+        android:title="Contact Us">
+    </item>
+    <item android:id="@+id/bottom_nav_phone"
+        android:icon="@mipmap/ic_app_phone"
+        android:title="Phone">
+    </item>
+    <item android:id="@+id/bottom_nav_mail"
+        android:icon="@mipmap/ic_app_email"
+        android:title="Email">
+    </item>
+</menu>

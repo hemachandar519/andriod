@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gotogyms.gtogapp.UserCheckin">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkin_text"
+            android:textStyle="bold"
+            android:id="@+id/checkintext"
+            android:textSize="15dp"
+            android:gravity="center"/>
+        <SurfaceView
+            android:id="@+id/cameraView"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:text="CHECK IN"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/scanbutton"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_below="@id/checkintext"
+            android:layout_gravity="bottom" />
+    </FrameLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Offline Language Converter</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="fromLangs">
+        <item>English</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+    </string-array>
+    <string-array name="toLangs">
+        <item>English</item>
+        <item>Telugu</item>
+        <item>Tamil</item>
+    </string-array>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gotogyms.gotogymsapp.gotogyms">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/profile_section"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/registerText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="@color/colorAccent"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"
+            android:text="My Profile"
+            android:gravity="center"
+            android:textSize="25dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact_user_name">
+            <EditText
+                android:id="@+id/conusrname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:ems="10"
+                android:inputType="textPersonName|textCapWords"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:layout_gravity="center_horizontal" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/singup_input_layout_name">
+            <EditText
+                android:id="@+id/conusremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_email_contact"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:inputType="textEmailAddress"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:layout_gravity="center_horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/conusrname" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/singup_input_layout_mobile">
+            <EditText
+                android:id="@+id/conusrmobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="Mobile Number"
+                android:drawableLeft="@android:drawable/ic_menu_call"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/conusremail" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_city">
+            <EditText
+                android:id="@+id/usercity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="Date of Birth"
+                android:drawableLeft="@mipmap/ic_user_city"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/conusremail" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dob_layout">
+            <EditText
+                android:id="@+id/userdob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="Date of Birth"
+                android:drawableLeft="@mipmap/ic_birthday_icon"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:ems="10"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintTop_toBottomOf="@+id/conusremail" />
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp">
+            <Button style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/update_details"
+                android:layout_weight="1"
+                android:layout_alignParentBottom="true"
+                android:text="UPDATE"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

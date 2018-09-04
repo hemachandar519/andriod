@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_myprofile"
+            android:icon="@drawable/ic_user_icon"
+            android:title="My Profile">
+        </item>
+        <item android:id="@+id/nav_mypasses"
+            android:icon="@drawable/ic_userpic_icon"
+            android:title="Signup">
+        </item>
+        <item android:id="@+id/nav_myaccessid"
+            android:icon="@drawable/ic_userpic_icon"
+            android:title="GOTOGYMS ID">
+        </item>
+        <item android:id="@+id/nav_search_gyms"
+            android:icon="@drawable/ic_gym_icon"
+            android:title="Search Gyms">
+        </item>
+        <item android:id="@+id/nav_usercheckin"
+            android:icon="@drawable/ic_camera_icon"
+            android:title="User Checkin">
+        </item>
+        <item android:id="@+id/nav_myorders"
+            android:icon="@drawable/ic_cart_icon"
+            android:title="Orders">
+        </item>
+        <item android:id="@+id/nav_mylogs"
+            android:icon="@drawable/ic_logs_icon"
+            android:title="Logs">
+        </item>
+<!--        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logoff_icon"
+            android:title="Logout">
+        </item>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Import" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Slideshow" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />    -->
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Write to Us" />
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info_icon"
+                android:title="Information" />
+        </menu>
+    </item>
+</menu>

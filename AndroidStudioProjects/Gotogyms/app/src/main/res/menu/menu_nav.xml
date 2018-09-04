@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:icon="@mipmap/ic_face_black_24dp"
+        />
+    <item
+        android:title="Profile"
+        android:icon="@mipmap/ic_face_black_24dp"
+        />
+    <item
+        android:title="Logs"
+        android:icon="@mipmap/ic_face_black_24dp"
+        />
+    <item
+        android:title="Settings"
+        android:icon="@mipmap/ic_face_black_24dp"
+        />
+    <item
+        android:title="Contact Us"
+        android:icon="@drawable/ic_mail_outline_black_24dp"
+        />
+    <item
+        android:title="Logout"
+        android:icon="@mipmap/ic_face_black_24dp"
+        />
+</menu>

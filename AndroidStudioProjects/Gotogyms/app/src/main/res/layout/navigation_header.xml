@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:background="@android:color/holo_orange_dark"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/userpic"
+        android:src="@drawable/homepage"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:id="@+id/username"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email address"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:id="@+id/useremail"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+
+</RelativeLayout>

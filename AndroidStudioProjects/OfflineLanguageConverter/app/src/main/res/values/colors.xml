@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e9333f</color>
+    <color name="colorPrimaryDark">#ca0634</color>
+    <color name="colorAccent">#e9333f</color>
+    <color name="genderSelected">#FF5733</color>
+    <color name="genderunSelected">#ECE8E8</color>
+    <color name="borderColor">#050505</color>
+</resources>
